@@ -23,8 +23,11 @@ class Node {
     }
 };
 
-/*Runtime: 0 ms, faster than 100.00% of Java online submissions for Populating Next Right Pointers in Each Node.
-Memory Usage: 39.1 MB, less than 85.97% of Java online submissions for Populating Next Right Pointers in Each Node.*/
+/*
+https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Populating Next Right Pointers in Each Node.
+Memory Usage: 39.1 MB, less than 85.97% of Java online submissions for Populating Next Right Pointers in Each Node.
+*/
 
 public class Populating_Next_Right_Pointers_in_Each_Node_116 {
 
