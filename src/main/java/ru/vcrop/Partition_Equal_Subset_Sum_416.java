@@ -5,6 +5,8 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+
+//bad problem solve
 public class Partition_Equal_Subset_Sum_416 {
     private boolean recursion(int index, int[] nums, int sum, Map<Integer, Set<Integer>> map) {
         if (index == nums.length) return sum == 0;
