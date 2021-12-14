@@ -22,9 +22,9 @@ public class Minimum_Height_Trees_310 {
         while (map.size() > 2) {
             List<Integer> tmp = new ArrayList<>();
             for (int val: current) {
-                for (int neighborn: map.get(val)) {
-                    map.get(neighborn).remove(val);
-                    if (map.get(neighborn).size() == 1) tmp.add(neighborn);
+                for (int neighbor: map.get(val)) {
+                    map.get(neighbor).remove(val);
+                    if (map.get(neighbor).size() == 1) tmp.add(neighbor);
                 }
                 map.remove(val);
             }
