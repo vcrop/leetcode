@@ -47,5 +47,5 @@ public class Course_Schedule_II_210 {
             return result.stream().mapToInt(i -> i).toArray();
         return new int[]{};
     }
-    
+
 }
