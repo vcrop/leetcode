@@ -36,7 +36,7 @@ public class Delete_Node_in_a_BST_450 {
             getRightTail(root.right).left = root.left;
             return root.right;
         }
-        
+
         if (root.val < key) root.right = deleteNode(root.right, key);
         root.left = deleteNode(root.left, key);
         return root;
