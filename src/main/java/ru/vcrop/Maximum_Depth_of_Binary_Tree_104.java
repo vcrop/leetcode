@@ -1,5 +1,8 @@
 package ru.vcrop;
 
+/*https://leetcode.com/problems/maximum-depth-of-binary-tree/
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Maximum Depth of Binary Tree.
+        Memory Usage: 42.2 MB, less than 23.84% of Java online submissions for Maximum Depth of Binary Tree.*/
 public class Maximum_Depth_of_Binary_Tree_104 {
 
     public class TreeNode {
