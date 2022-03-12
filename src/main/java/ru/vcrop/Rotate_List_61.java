@@ -9,7 +9,7 @@ public class Rotate_List_61 {
       ListNode(int val) { this.val = val; }
       ListNode(int val, ListNode next) { this.val = val; this.next = next; }
   }
-  
+
         public ListNode[] solution(ListNode head, int[] k, int size) {
             ListNode[] result;
             if (head.next == null) {
