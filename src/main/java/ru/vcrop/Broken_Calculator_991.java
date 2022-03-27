@@ -11,7 +11,7 @@ public class Broken_Calculator_991 {
             if (target % 2 == 1) target++;
             else target /= 2;
             count++;
-        };
+        }
         return count;
     }
 }
