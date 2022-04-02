@@ -5,9 +5,8 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-/*https://leetcode.com/problems/merge-intervals/
-        Runtime: 11 ms, faster than 18.96% of Java online submissions for Merge Intervals.
-        Memory Usage: 41.5 MB, less than 87.73% of Java online submissions for Merge Intervals.*/
+/*Runtime: 12 ms, faster than 65.00% of Java online submissions for Merge Intervals.
+        Memory Usage: 47.5 MB, less than 82.40% of Java online submissions for Merge Intervals.*/
 public class Merge_Intervals_56 {
 
     public int[][] merge(int[][] intervals) {
