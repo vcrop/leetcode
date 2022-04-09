@@ -13,6 +13,6 @@ public class Top_K_Frequent_Elements_347 {
     public int[] topKFrequent(int[] nums, int k) {
         return IntStream.of(nums).boxed().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
                 .entrySet().stream().sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
-                .limit(k).mapToInt(l -> (int) l.getKey()).toArray();
+                .limit(k).mapToInt(Map.Entry::getKey).toArray();
     }
 }
