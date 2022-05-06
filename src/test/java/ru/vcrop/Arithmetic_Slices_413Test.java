@@ -1,14 +1,9 @@
 package ru.vcrop;
 
-import junitparams.JUnitParamsRunner;
-import junitparams.Parameters;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 
-import static junitparams.JUnitParamsRunner.$;
-import static org.junit.jupiter.api.Assertions.*;
 
 
 class Arithmetic_Slices_413Test {
