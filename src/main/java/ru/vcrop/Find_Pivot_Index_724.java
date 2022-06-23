@@ -1,5 +1,9 @@
 package ru.vcrop;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.charset.Charset;
+
 public class Find_Pivot_Index_724 {
 
     public int pivotIndex(int[] nums) {
@@ -13,5 +17,11 @@ public class Find_Pivot_Index_724 {
             else sum_mid += nums[i];
 
         return -1;
+    }
+
+    public static String readAsString(InputStream inputStream, Charset charset) throws IOException {
+        byte[] bytes = new byte[inputStream.available()];
+        inputStream.read(bytes);
+        return new String(bytes, charset);
     }
 }
